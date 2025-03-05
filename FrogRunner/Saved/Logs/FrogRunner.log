@@ -1896,3 +1896,63 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.03.05-17.36.10:917][573]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 663.639526
 [2025.03.05-17.36.11:912][575]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
 [2025.03.05-17.36.11:912][575]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 664.302673, Update Interval: 327.823730
+[2025.03.05-17.38.00:452][ 62]LogUObjectHash: Compacting FUObjectHashTables data took  23.56ms
+[2025.03.05-17.38.01:982][ 85]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2025.03.05-17.38.02:052][ 85]LogStall: Shutdown...
+[2025.03.05-17.38.02:052][ 85]LogStall: Shutdown complete.
+[2025.03.05-17.38.02:132][ 85]LogSlate: Window 'FrogRunner - Unreal Editor' being destroyed
+[2025.03.05-17.38.02:471][ 85]Cmd: QUIT_EDITOR
+[2025.03.05-17.38.02:472][ 86]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2025.03.05-17.38.02:484][ 86]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2025.03.05-17.38.02:484][ 86]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2025.03.05-17.38.02:484][ 86]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2025.03.05-17.38.02:492][ 86]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.03.05-17.38.02:493][ 86]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.05-17.38.02:493][ 86]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap
+[2025.03.05-17.38.02:532][ 86]LogStylusInput: Shutting down StylusInput subsystem.
+[2025.03.05-17.38.02:545][ 86]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2025.03.05-17.38.02:552][ 86]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2025.03.05-17.38.02:553][ 86]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.05-17.38.02:556][ 86]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2025.03.05-17.38.02:556][ 86]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.05-17.38.02:572][ 86]LogStudioTelemetry: Ended StudioTelemetry Session
+[2025.03.05-17.38.02:593][ 86]LogAnalytics: Display: [UEEditor.Rocket.Release] Destroying ET Analytics provider
+[2025.03.05-17.38.02:593][ 86]LogAnalytics: Display: [UEEditor.Rocket.Release] Ended ET Analytics provider session
+[2025.03.05-17.38.02:593][ 86]LogAnalytics: Display: [UEEditor.Rocket.Release] Destroyed ET Analytics provider
+[2025.03.05-17.38.02:601][ 86]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2025.03.05-17.38.02:601][ 86]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2025.03.05-17.38.02:601][ 86]LogAudio: Display: Audio Device unregistered from world 'ThirdPersonMap'.
+[2025.03.05-17.38.02:601][ 86]LogAudio: Display: Shutting down audio device while 1 references to it are still alive. For more information, compile with INSTRUMENT_AUDIODEVICE_HANDLES.
+[2025.03.05-17.38.02:606][ 86]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2025.03.05-17.38.02:640][ 86]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2025.03.05-17.38.02:773][ 86]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID -1
+[2025.03.05-17.38.02:775][ 86]LogAudio: Display: Audio Device Manager Shutdown
+[2025.03.05-17.38.02:788][ 86]LogWindowsTextInputMethodSystem: Activated input method: English (United States) - (Keyboard).
+[2025.03.05-17.38.02:813][ 86]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2025.03.05-17.38.02:814][ 86]LogExit: Preparing to exit.
+[2025.03.05-17.38.02:902][ 86]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2025.03.05-17.38.03:654][ 86]LogEditorDataStorage: Deinitializing
+[2025.03.05-17.38.05:881][ 86]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2025.03.05-17.38.06:107][ 86]LogExit: Editor shut down
+[2025.03.05-17.38.06:128][ 86]LogExit: Transaction tracking system shut down
+[2025.03.05-17.38.07:196][ 86]LogExit: Object subsystem successfully closed.
+[2025.03.05-17.38.07:315][ 86]LogShaderCompilers: Display: Shaders left to compile 0
+[2025.03.05-17.38.08:671][ 86]LogMemoryProfiler: Shutdown
+[2025.03.05-17.38.08:672][ 86]LogNetworkingProfiler: Shutdown
+[2025.03.05-17.38.08:672][ 86]LoadingProfiler: Shutdown
+[2025.03.05-17.38.08:673][ 86]LogTimingProfiler: Shutdown
+[2025.03.05-17.38.09:519][ 86]LogChaosDD: Chaos Debug Draw Shutdown
+[2025.03.05-17.38.09:524][ 86]LogStudioTelemetry: Display: Shutdown StudioTelemetry Module
+[2025.03.05-17.38.09:524][ 86]LogNFORDenoise: NFORDenoise function shutting down
+[2025.03.05-17.38.09:554][ 86]LogHttp: Warning: [FHttpManager::Shutdown] Unbinding delegates for 1 outstanding Http Requests:
+[2025.03.05-17.38.09:554][ 86]LogHttp: Warning: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B18F402EA-4149-F023-C02E-A39F2BB7F5E4%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.5.3-39772772%2B%2B%2BUE5%2BRelease-5.5&UserID=b1d571984c3864d01f9e13be1d6f68bf%7C26b72150d70c43e2bd524a5982f3a8f0%7C4b6a5099-8831-46bb-a36b-c60ec9e38b22&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[2] status=Processing
+[2025.03.05-17.38.10:132][ 86]LogEOSSDK: FEOSSDKManager::Shutdown EOS_Shutdown Result=[EOS_Success]
+[2025.03.05-17.38.10:148][ 86]RenderDocPlugin: plugin has been unloaded.
+[2025.03.05-17.38.10:162][ 86]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetActorFactory id: 0
+[2025.03.05-17.38.10:162][ 86]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetSubObjectFactory id: 1
+[2025.03.05-17.38.10:162][ 86]LogPakFile: Destroying PakPlatformFile
+[2025.03.05-17.38.10:373][ 86]LogD3D11RHI: Shutdown
+[2025.03.05-17.38.10:373][ 86]LogD3D11RHI: CleanupD3DDevice
+[2025.03.05-17.38.10:405][ 86]LogD3D11RHI: Intel Extensions Framework unloaded
+[2025.03.05-17.38.10:458][ 86]LogExit: Exiting.
+[2025.03.05-17.38.11:302][ 86]Log file closed, 03/05/25 11:38:11
